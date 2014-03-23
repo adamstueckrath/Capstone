@@ -1,0 +1,26 @@
+/* Color scheme http://ceblog.s3.amazonaws.com/wp-content/uploads/2012/06/color139.jpg */ 
+/* #585858 Gray*/
+/* #118C4E Forest Green*/
+/* #C1E1A6 Mint Gray*/
+/* #FF9009 Orange*/
+
+Body {
+    background-color:#585858;
+}
+
+#footer {
+    color:#FF9009;
+    border-collapse:collapse;
+    border:none;
+    text-align:center;
+}
+
+table td, th {
+    border-collapse:collapse;
+    color:#FF9009;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:center
+    
+}
+
