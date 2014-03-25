@@ -40,11 +40,11 @@
                         </div>
                   <div class ="collapse navbar-collapse navHeaderCollapse" style="background-color:#C1E1A6;">
                       <ul class="nav navbar-nav navbar-left">
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">Stock Filter</a></li>
-                          <li><a href="#">Ratio Info</a></li>
-                          <li><a href="#">Reports</a></li>
-                          <li><a href="#">Contact Us</a></li>
+                          <li><a runat="server" href="~/Default.aspx">Home</a></li>
+                          <li><a runat="server" href="#">Stock Filter</a></li>
+                          <li><a runat="server" href="#">Ratio Info</a></li>
+                          <li><a runat="server" href="#">Reports</a></li>
+                          <li><a runat="server" href="#">Contact Us</a></li>
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
                         <div class="form-group">
@@ -54,13 +54,13 @@
                     </div>
                     <div>
                      <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Login</a></li>
+                        <li><a runat="server" href="~/login/login.aspx">Login</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                            <li><a href="#">Board of Directors</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a runat="server" href="#">Board of Directors</a></li>
+                            <li><a runat="server" href="#">Another action</a></li>
+                            <li><a runat="server" href="#">Something else here</a></li>
                             <li class="divider"></li>
                             <li class="nav-header">Account</li>
                             <li><a href="#">Profile</a></li>
@@ -92,7 +92,7 @@
                 <tr>
                     <td class="auto-style1"><a href="#" title="Facebook">About us</a></td>
                     <td class="auto-style1"><a href="#" title="Facebook">Terms of service</a></td>
-                    <td class="auto-style1"><a href="#" title="Facebook">Login</a></td>
+                    <td class="auto-style1"><a runat="server" href="~/login/login.aspx" title="Login">Login</a></td>
                 </tr>
                 <tr>
                     <td><a href="#" title="Facebook">Who we are</a></td>

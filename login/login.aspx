@@ -9,17 +9,17 @@
 <LayoutTemplate>
    <div class="jumbotron" > 
        <div class="container">
-    <div class="form-horizontal">
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-10">
-     <asp:TextBox ID="UserName" CssClass="form-control" placeholder="User Name" autofocus runat="server"></asp:TextBox> 
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-10">
-      <asp:TextBox ID="Password" runat="server" TextMode="Password" class="form-control" placeholder="Password"></asp:TextBox>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                         <div class="col-sm-10">
+                               <asp:TextBox ID="UserName" CssClass="form-control" placeholder="User Name" autofocus runat="server"></asp:TextBox> 
+                         </div>
+                </div>
+            <div class="form-group">
+                     <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+       <div class="col-sm-10">
+                       <asp:TextBox ID="Password" runat="server" TextMode="Password" class="form-control" placeholder="Password"></asp:TextBox>
     </div>
   </div>
   <div class="form-group">
