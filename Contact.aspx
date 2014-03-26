@@ -8,19 +8,26 @@
       <div class="container">
       <legend>Contact Us</legend>
 
-        Your email address:<br />
+        <label for="name">Your Email Address:</label>
+        
+        <br />
+
         <asp:TextBox 
             ID="senderAddress" 
+            input type="email"
             runat="server"
             CssClass="form-control"
-            placeholder="Please Enter Your Email Address">
+            placeholder="Please Enter Your Email Address"
+            required ="required">
         </asp:TextBox>
 
         <br />
         <br />
        
-         Your message:<br /> 
-        <!-- to make your box bigger add rows, columns, and textmode -->
+        <label for="name">Your Message:</label>
+          
+        <br /> 
+        
         <asp:TextBox 
             ID="senderMessage" 
             runat="server" 
@@ -28,10 +35,10 @@
             Columns="30" 
             CssClass="form-control"
             placeholder="Please Enter Your Message"
-            TextMode="MultiLine">
+            TextMode="MultiLine"
+            required ="required">
         </asp:TextBox>
-          
-        
+                        
         <br />
         <br />
         <asp:Button 
