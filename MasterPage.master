@@ -36,8 +36,11 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand" href="#">Pvalue</a>
-                        </div>
+                          <div>
+                          <a class="navbar-brand" runat="server" href="~/Default.aspx"><a runat="server" href="~/Default.aspx">
+                            <asp:image id="img" runat="server" imageurl="http://pvalue.org/img/home/pvi.png" height=100px /></a>
+                            </a></div>
+                          </div>
                   <div class ="collapse navbar-collapse navHeaderCollapse" style="background-color:#C1E1A6;">
                       <ul class="nav navbar-nav navbar-left">
                           <li><a runat="server" href="~/Default.aspx">Home</a></li>
