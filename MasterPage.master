@@ -38,7 +38,7 @@
                           </button>
                           <div>
                           <a class="navbar-brand" runat="server" href="~/Default.aspx"><a runat="server" href="~/Default.aspx">
-                            <asp:image id="img" runat="server" imageurl="http://pvalue.org/img/home/pvi.png" height=100px /></a>
+                            <asp:image id="img" runat="server" imageurl="~/images/pvi.png" Height ="50px" /></a>
                             </a></div>
                           </div>
                   <div class ="collapse navbar-collapse navHeaderCollapse" style="background-color:#C1E1A6;">
@@ -48,9 +48,7 @@
                           <li><a runat="server" href="#">Reports</a></li>
                           <li><a id="A3" runat="server" href="~/Ratios.aspx">Ratios</a></li>
                           <li><a id="A2" runat="server" href="~/News.aspx">News</a></li>
-                          <li><a id="A1" runat="server" href="~/About.aspx">About</a></li>
-                          <li><a runat="server" href="~/Board.aspx">Board</a></li>
-                          <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                       
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
                         <div class="form-group">
@@ -60,16 +58,16 @@
                     </div>
                     <div>
                      <ul class="nav navbar-nav navbar-right">
-                        <li><a runat="server" href="~/login/login.aspx">Login</a></li>
+                        <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                            <li><a runat="server" href="#">Board of Directors</a></li>
-                            <li><a runat="server" href="#">Another action</a></li>
-                            <li><a runat="server" href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="nav-header">Account</li>
-                            <li><a href="#">Profile</a></li>
+                               <li><a id="A1" runat="server" href="~/About.aspx">About</a></li>
+                               <li><a id="A4" runat="server" href="~/Board.aspx">Board</a></li>
+                               <li><a id="A5" runat="server" href="~/Contact.aspx">Contact</a></li>
+                               <li class="divider"></li>
+                               <li class="nav-header">Account</li>                                   
+                               <li><a href="#">Profile</a></li>
                           </ul>
                         </li>
                       </ul>
