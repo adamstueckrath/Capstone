@@ -96,7 +96,7 @@
                 <tr>
                     <td class="auto-style1"><a href="#" title="Facebook">About us</a></td>
                     <td class="auto-style1"><a href="#" title="Facebook">Terms of service</a></td>
-                    <td class="auto-style1"><a runat="server" href="~/login/login.aspx" title="Login">Login</a></td>
+                    <td class="auto-style1"><asp:LoginStatus ID="LoginStatus2" runat="server" /></td>
                 </tr>
                 <tr>
                     <td><a href="#" title="Facebook">Who we are</a></td>
