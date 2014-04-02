@@ -52,9 +52,9 @@
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search"/>
+                            <asp:TextBox ID="tb_search" runat="server" class="form-control" placeholder="Search Company"></asp:TextBox>
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <asp:Button ID="btn_search" runat="server" class="btn btn-default" Text="Search" />                        
                     </div>
                     <div>
                      <ul class="nav navbar-nav navbar-right">
@@ -68,6 +68,7 @@
                                <li class="divider"></li>
                                <li class="nav-header">Account</li>                                   
                                <li><a href="#">Profile</a></li>
+                               <li><a runat="server" href="~/login/changepassword.aspx">Change Password</a></li>
                           </ul>
                         </li>
                       </ul>

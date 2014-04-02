@@ -35,6 +35,8 @@
                                     <asp:CheckBox ID="RememberMe" runat="server" Text="Remember me next time." />
                                 </label>
 
+                                <a id="A1" runat="server" href="~/login/passwordrecovery.aspx">Forget Password?</a></li><br />
+
                                 <asp:Literal ID="FailureText" runat="server"  EnableViewState="False"></asp:Literal><br />
 			                    <asp:Button CssClass="btn btn-lg btn-primary btn-block" 
                                     ID="LoginButton" 
@@ -42,8 +44,7 @@
                                     CommandName="Login" 
                                     Text="Log In" 
                                     ValidationGroup="Login1" />                                                            
-		                    </div>
-                            
+		                    </div>                            
 	                    </div>
                     </div>
                </LayoutTemplate>
