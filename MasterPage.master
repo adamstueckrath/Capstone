@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/Style.css" rel="stylesheet" type="text/css" />
     <link href="~/css/masterstyle.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/Dashboard.css" rel="stylesheet" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -44,6 +45,7 @@
                   <div class ="collapse navbar-collapse navHeaderCollapse" style="background-color:#C1E1A6;">
                       <ul class="nav navbar-nav navbar-left">
                           <li><a runat="server" href="~/Default.aspx">Home</a></li>
+                          <li><a runat="server" href="~/Ranks/RankbyAC.aspx">Quick Rank</a></li>
                           <li><a runat="server" href="#">Stock Filter</a></li>
                           <li><a runat="server" href="#">Reports</a></li>
                           <li><a id="A3" runat="server" href="~/Ratios.aspx">Ratios</a></li>
