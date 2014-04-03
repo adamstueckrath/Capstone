@@ -16,21 +16,6 @@
     <br />
     <br />
 
-    Select Ratio(s): 
-    AC <asp:CheckBox ID="CheckBox1" runat="server" />
-    AG <asp:CheckBox ID="CheckBox2" runat="server" />
-    AT <asp:CheckBox ID="CheckBox3" runat="server" />
-    EY <asp:CheckBox ID="CheckBox4" runat="server" />
-    GM <asp:CheckBox ID="CheckBox5" runat="server" />
-    MC <asp:CheckBox ID="CheckBox6" runat="server" />
-    PE <asp:CheckBox ID="CheckBox7" runat="server" />
-    RDR <asp:CheckBox ID="CheckBox8" runat="server" />
-    ROC <asp:CheckBox ID="CheckBox9" runat="server" />
-    SG <asp:CheckBox ID="CheckBox10" runat="server" />
-
-    <br />
-    <br />
-
     <asp:Button ID="btn_search" runat="server" class="btn btn-primary" Text="Submit" />
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_PVI %>" SelectCommand="SELECT * FROM [PVI_Ranks]"></asp:SqlDataSource>

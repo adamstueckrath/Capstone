@@ -13,13 +13,13 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Rank By:</a></li>
+            <li><a href="#">Rank By:</a></li>
             <li><a href="RankbyAC.aspx">Accuals</a></li>
             <li><a href="RankbyAG.aspx">Assets Growth</a></li>
             <li><a href="RankbyAT.aspx">Assets Turnover</a></li>
             <li><a href="RankbyEY.aspx">Earnings Yield</a></li>
             <li><a href="RankbyGM.aspx">Gross Margin</a></li>
-            <li><a href="RankbyMC.aspx">Market Cap</a></li>
+            <li class="active"><a href="RankbyMC.aspx">Market Cap</a></li>
             <li><a href="RankbyPE.aspx">P/E</a></li>
             <li><a href="RankbyRDR.aspx">R&D Expenditure Ratio</a></li>
             <li><a href="RankbyROC.aspx">Return on Capital</a></li>

@@ -13,8 +13,8 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Rank By:</a></li>
-            <li><a href="RankbyAC.aspx">Accuals</a></li>
+            <li><a href="#">Rank By:</a></li>
+            <li class="active"><a href="RankbyAC.aspx">Accuals</a></li>
             <li><a href="RankbyAG.aspx">Assets Growth</a></li>
             <li><a href="RankbyAT.aspx">Assets Turnover</a></li>
             <li><a href="RankbyEY.aspx">Earnings Yield</a></li>
