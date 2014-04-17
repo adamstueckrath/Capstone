@@ -8,7 +8,32 @@
       <div class="container">
       <legend>Contact Us</legend>
 
-        <label for="name">Your Email Address:</label>
+        <label for="first name">First Name:</label>
+        <br />
+        
+          <asp:TextBox 
+            ID="TextBox1" 
+            input type="first name"
+            runat="server"
+            CssClass="form-control"
+            placeholder="Please Enter Your First Name"
+            required ="required">
+        </asp:TextBox>
+        <br />
+
+        <label for="last name">Last Name:</label>
+        <br />
+          <asp:TextBox 
+            ID="TextBox2" 
+            input type="last name"
+            runat="server"
+            CssClass="form-control"
+            placeholder="Please Enter Your Last Name"
+            required ="required">
+        </asp:TextBox>
+        <br />
+
+        <label for="name">Email Address:</label>
         
         <br />
 
@@ -24,7 +49,7 @@
         <br />
         <br />
        
-        <label for="name">Your Message:</label>
+        <label for="name">Message:</label>
           
         <br /> 
         
