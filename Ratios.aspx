@@ -22,7 +22,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 <!-- Begin Body -->
+   
 <div class="container">
+    
 	<div class="row">
   			<div class="col-md-3" id="leftCol">
 				<div class="well"> 
@@ -40,9 +42,9 @@
                   <li><a href="#sec10">Sales Growth</a></li>
               	</ul>
   				</div>
-
+ 
       		</div>  
-      		<div class="col-md-9">
+      		<div class="col-md-9"><div class="jumbotron">
               	<h2 id="sec0">About the Ratios</h2>
                 <p>
                 The Financial Statement Ratios are presented in a simplified manner to make them easier to understand. 
@@ -58,8 +60,8 @@
                 Profitability ratios measure a company's operating efficiency, including its ability to generate income and therefore, cash flow. 
                 Cash flow affects the company's ability to obtain debt and equity financing.
                 Solvency ratios are used to measure long‐term risk and are of interest to long‐term creditors and stockholders.
-                </p> 
-                   
+                </p> </div>
+            <div class="jumbotron">
               	<h2 id="sec1">Assets Turnover Ratio</h2>
               	<div class="row">
                   <div class="col-lg-12">
@@ -281,10 +283,6 @@
                <hr />
 
                 <h2 id="sec9">Return on Capital Ratio</h2>
-      			<p>
-                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-              	</p>
               	<div class="row">
                   <div class="col-lg-12">
                       <div class="panel panel-default">
@@ -314,10 +312,6 @@
                <hr />
 
                 <h2 id="sec10">Sales Growth Ratio</h2>
-      			<p>
-                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-              	</p>
               	<div class="row">
                   <div class="col-lg-12">
                       <div class="panel panel-default">
@@ -343,7 +337,7 @@
                   </div>  
               	</div>
 
-      		</div> 
+      		</div> </div>
   	</div>
 </div>
 
