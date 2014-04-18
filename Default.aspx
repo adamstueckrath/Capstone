@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- The background image is set in the custom CSS -->
-                    <h1 class="tagline">Pentacrest Value Institute</h1>
+                    <h1 class="tagline">We catch, we analyze, and we deliver.</h1>
                 </div>
             </div>
 
@@ -40,13 +40,12 @@
 
     <div class="container">
 
-        <hr>
+        <hr />
 
         <div class="row">
             <div class="col-lg-8 col-sm-8">
                 <h2>What We Do</h2>
-                <p>Here is where you will introduce visitors to the business. Make sure to use clear and informative sentences. Use appropriate keywords here to make sure search engines can find the business.</p>
-                <p>When using this template, two decisions will be open to visitors. Decision one will be to use above-the-fold information to interact with the page. Decision two will be to scroll down and see the additional marketing boxes. Either way, the user will get the information they need!</p>
+                <p>Pentacrest Value Institute (PVI) researchers include a small group of business school professors and students with an interest in applying quantitative methods to fundamental equity research. We write on our thoughts regarding equity valuation as well as on trends in the quant equity industry.</p>
                 <p><a class="btn btn-default btn-large" href="#">Call to action &raquo;</a>
                 </p>
             </div>
@@ -57,7 +56,8 @@
               <li><a href="http://www.twitter.com/" title="Follow us!" target="_blank" ><img src="~/images/twitter.png" /></a></li>
               <li><a href="https://plus.google.com/u/0/114211459327754436277/posts" title="Google Plus" target="_blank"><img src="~/images/google.png" /></a></li>
               <li><a href="https://www.facebook.com/pages/Pentacrest-Value-Institue/1419838884901482" title="Be our friend" target="_blank"><img src="~/images/facebook.png" /></a></li>
-		    </ul>
+		    </ul>
+
             </div>
         </div>
 
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <hr>
+        <hr />
 
     </div>
     <!-- /container -->
