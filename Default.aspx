@@ -2,65 +2,48 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
      <style type="text/css">
-         body {
-	        margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
-           }
 
-            /* change the URL to a picture of your choice - the higher quality the better! */
-        .business-header {
-	        height: 400px;
-	        background: url() center center no-repeat;
-	        background-size: cover;
-            }
+  #cover {
+   background-size: 100% auto;
+   height:auto;
+   background-image: url('images/value.png');
+   border-radius: 6px;
+   -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+   -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+   box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
 
-        /* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
-       .tagline {
-	            color: #fff;
-	            text-shadow: 0 0 10px #000;
-            }
+  }
 
-       .product-showcase {
-    margin: 0 auto;
-    background: #2d2d2d;
-}
+  #cover h1 {
+   color: #fff;
+   background: rgba(45,45,45,.7);
+   font-size: 63px;
+   line-height: 1.5em;
+   -moz-border-radius-topleft: 8px;
+   -moz-border-radius-topright: 8px;
+   -webkit-border-top-left-radius: 8px;
+   -webkit-border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+  }
 
-.product-showcase-pattern {
-    margin: 0 auto;
-    background-image: url(~/images/pvalue.jpg);
-    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-}
 
-.product-background {
-    margin-top: 80px;
-    padding-bottom: 40px;
-    background: #2d2d2d; /* browsers that don't support rgba */
-    background: rgba(45,45,45,.7);
-    -moz-border-radius-topleft: 8px;
-    -moz-border-radius-topright: 8px;
-    -webkit-border-top-left-radius: 8px;
-    -webkit-border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <div class="business-header">
+  
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="tagline">We catch, we analyze, and we deliver.</h1>
-                    <div class="product-background">
-                    <asp:image id="img" runat="server" CssClass="product-showcase-pattern" imageurl="~/images/pvalue.jpg" /> 
-                </div></div>
+                    <div id="cover" class="jumbotron">
+                        <h1 class="text-center">We catch, we analyze, and we deliver.</h1>
+                    </div>
             </div>
-</div>
+        </div>
 
-</div>
+
+
 
 
     <div class="container">
