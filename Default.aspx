@@ -44,6 +44,13 @@
   letter-spacing: 3px;
   font-weight: 400;
 }
+
+   .icons {
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
+    border-bottom-right-radius:2em;
+    border-bottom-left-radius:2em;
+         }
     </style>
 </asp:Content>
 
@@ -83,10 +90,10 @@
             <div class="col-lg-4 col-sm-4">
             <h2>Contect With Us</h2>
              <ul class="list-inline">
-	          <li><a href="http://seekingalpha.com/author/pentacrest-value-institute?source=search_general&s=pentacrest-value-institute" title="Make Comments" target="_blank" class="linked"> <asp:image id="Image1" runat="server" imageurl="~/images/seekingalpha.png" /></a></li>
-              <li><a href="http://www.twitter.com/" title="Follow us!" target="_blank" ><asp:image id="Image3" runat="server" imageurl="~/images/twitter.png" /> </a></li>
-              <li><a href="https://plus.google.com/u/0/114211459327754436277/posts" title="Google Plus" target="_blank"><asp:image id="Image5" runat="server" imageurl="~/images/google.png" style="background-color: transparent; border:0;" /> </a></li>
-              <li><a href="https://www.facebook.com/pages/Pentacrest-Value-Institue/1419838884901482" title="Be our friend" target="_blank"><asp:image id="Image4" runat="server" imageurl="~/images/facebook.png" /> </a></li>
+	          <li><a href="http://seekingalpha.com/author/pentacrest-value-institute?source=search_general&s=pentacrest-value-institute" title="Make Comments" target="_blank" class="linked"> <asp:image id="Image1" CssClass="icons" runat="server" imageurl="~/images/seekingalpha.png" /></a></li>
+              <li><a href="http://www.twitter.com/" title="Follow us!" target="_blank" ><asp:image id="Image3" runat="server" CssClass="icons" imageurl="~/images/twitter.png" /> </a></li>
+              <li><a href="https://plus.google.com/u/0/114211459327754436277/posts" title="Google Plus" target="_blank"><asp:image id="Image5" runat="server"  CssClass="icons" imageurl="~/images/google.png" /> </a></li>
+              <li><a href="https://www.facebook.com/pages/Pentacrest-Value-Institue/1419838884901482" title="Be our friend" target="_blank"><asp:image id="Image4" runat="server"  CssClass="icons" imageurl="~/images/facebook.png" /> </a></li>
 		    </ul>
 
             </div>
@@ -99,17 +106,17 @@
 
         <div class="row">
             <div class="col-sm-4">
-                <img class="img-circle img-responsive text-center" src="images/tippie1.jpg">
+                <img class="img-circle img-responsive text-center" src="images/tippie1.jpg"/>
                 <h2>Marketing Box #1</h2>
                 <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
             </div>
             <div class="col-sm-4">
-                <img class="img-circle img-responsive" src="http://placehold.it/300x300">
+                <img class="img-circle img-responsive" src="http://placehold.it/300x300"/>
                 <h2>Marketing Box #2</h2>
                 <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <div class="col-sm-4">
-                <img class="img-circle img-responsive" src="http://placehold.it/300x300">
+                <img class="img-circle img-responsive" src="http://placehold.it/300x300"/>
                 <h2>Marketing Box #3</h2>
                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
