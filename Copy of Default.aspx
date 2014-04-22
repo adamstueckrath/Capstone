@@ -143,7 +143,117 @@
             </div>
             <div class="col-sm-4">
 
-               				<script src="//www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/100840413740199312943/stock-quotes.xml&amp;up_stockList=%5EIXIC%2C%5EGSPC%2C%5EN225%2C%5EHSI%2C%5ESTI%2C%5EFTSE%2C%5EGDAXI%2C%5EFCHI&amp;up_chart_bool=1&amp;up_font_size=12&amp;up_symbol_bool=0&amp;up_chart_period=0&amp;up_refresh_secs=30&amp;synd=open&amp;w=290&amp;h=300&amp;title=Stock+Quotes&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+               				<!-- TradingView Widget BEGIN -->
+<div id="tv-miniwidget"></div>
+<script type="text/javascript" src="https://s3.amazonaws.com/tradingview/tv.js"></script>
+<script type="text/javascript">
+    new TradingView.MiniWidget({
+        "container_id": "tv-miniwidget",
+        "tabs": [
+          "Equities",
+          "Commodities",
+          "Bonds",
+          "Forex"
+        ],
+        "symbols": {
+            "Equities": [
+              [
+                "S&P500",
+                "SPX500"
+              ],
+              [
+                "NQ100",
+                "NAS100"
+              ],
+              [
+                "Dow30",
+                "DOWI"
+              ],
+              [
+                "Nikkei225",
+                "JPN225"
+              ],
+              [
+                "Apple",
+                "AAPL "
+              ],
+              [
+                "Google",
+                "GOOG"
+              ]
+            ],
+            "Commodities": [
+              [
+                "Emini",
+                "ES1!"
+              ],
+              [
+                "Euro",
+                "E61!"
+              ],
+              [
+                "Gold",
+                "GC1!"
+              ],
+              [
+                "Oil",
+                "CL1!"
+              ],
+              [
+                "Gas",
+                "NG1!"
+              ],
+              [
+                "Corn",
+                "ZC1!"
+              ]
+            ],
+            "Bonds": [
+              [
+                "US 2YR",
+                "TUZ2013"
+              ],
+              [
+                "US 10YR",
+                "TYZ2013"
+              ],
+              [
+                "US 30YR",
+                "USZ2013"
+              ],
+              [
+                "Euro Bund",
+                "FX:BUND"
+              ],
+              [
+                "Euro BTP",
+                "EUREX:II1!"
+              ],
+              [
+                "Euro BOBL",
+                "EUREX:HR1!"
+              ]
+            ],
+            "Forex": [
+              "FX:EURUSD",
+              "FX:GBPUSD",
+              "FX:USDJPY",
+              "FX:USDCHF",
+              "FX:AUDUSD",
+              "FX:USDCAD"
+            ]
+        },
+        "gridLineColor": "#E9E9EA",
+        "fontColor": "#83888D",
+        "underLineColor": "#F0F0F0",
+        "timeAxisBackgroundColor": "#FFFFFF",
+        "trendLineColor": "#93c47d",
+        "activeTickerBackgroundColor": "#EDF0F3",
+        "large_chart_url": "https://www.tradingview.com/e/",
+        "width": "300px"
+    });
+</script>
+<!-- TradingView Widget END -->
 
 	
 	
