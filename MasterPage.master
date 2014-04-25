@@ -48,7 +48,7 @@
                           <li><a runat="server" href="#">Stock Filter</a></li>
                           <li><a runat="server" href="#">Reports</a></li>
                           <li><a id="A3" runat="server" href="~/Ratios.aspx">Ratios</a></li>
-                          <li><a id="A2" runat="server" href="~/News.aspx">News</a></li>
+                          <li><a id="A2" runat="server" href="~/newsarticles.aspx">News</a></li>
                        
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">

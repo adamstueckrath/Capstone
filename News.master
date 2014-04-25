@@ -6,6 +6,7 @@
 <head id="Head1" runat="server">
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Pvalue</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -21,7 +22,13 @@
         .auto-style1 {
             height: 37px;
         }
-
+        .box {
+          background: #fff;
+          background: rgba(255,255,255,0.9);
+          margin-bottom: 20px;
+          padding: 30px 15px;
+          border-radius: 6px;
+        }
     </style>
 </head>
 
@@ -49,7 +56,7 @@
                           <li><a id="A5" runat="server" href="#">Stock Filter</a></li>
                           <li><a id="A6" runat="server" href="#">Reports</a></li>
                           <li><a id="A7" runat="server" href="~/Ratios.aspx">Ratios</a></li>
-                          <li><a id="A8" runat="server" href="~/News.aspx">News</a></li>
+                          <li><a id="A8" runat="server" href="~/newsarticles.aspx">News</a></li>
                        
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
@@ -79,7 +86,7 @@
               </div>
           </nav>
 
-             
+            
             <div class="col-lg-3">
                 <div class="list-group">
                     <a runat="server"  href="News/AMCiponews.aspx" class="list-group-item">

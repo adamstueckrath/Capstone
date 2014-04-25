@@ -15,6 +15,13 @@
 	        }
         .fraction span.fdn {border-top: thin solid black;}
         .fraction span.bar {display: none;}
+        .box {
+          background: #fff;
+          background: rgba(255,255,255,0.9);
+          margin-bottom: 20px;
+          padding: 30px 15px;
+          border-radius: 6px;
+        }
     </style>
 </asp:Content>
 
@@ -44,14 +51,14 @@
   				</div>
  
       		</div>  
-      		<div class="col-md-9"><div class="jumbotron">
+      		<div class="col-md-9"><div class="box">
               	<h2 id="sec0">About the Ratios</h2>
                 <p>
                 The Financial Statement Ratios are presented in a simplified manner to make them easier to understand. 
                 Sure some of the ratios have different varieties, but by the end you will understand the basic premise and reasons for fundamental analysis.
               	</p>
            
-              	<hr class="col-md-12"/>     
+              	<hr />     
                 <p>       
                 Ratio analysis is used to evaluate relationships among financial statement items. 
                 The ratios are used to identify trends over time for one company or to compare two or more companies at one point in time. 
@@ -85,7 +92,7 @@
                         However, whether the ratio is good or bad to a large extent depends on
                         what industry the company operates in.
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
               
@@ -114,7 +121,7 @@
                         given level or risk. The longer the period tend to analyzes, the steadier figure tends to be 
                         reflected. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
               
@@ -141,7 +148,7 @@
                         When comparing companies in the same industry, a higher P/E Ratio
                         represents higher earnings growth.
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
               
@@ -169,7 +176,7 @@
                         is equal to market value of equity plus net interest-bearing debt. It takes into account both equity 
                         and debt using by the company to generate operating earnings. Higher EY Ratio is always preferred.
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -190,7 +197,7 @@
                        capitalization is divided into three sizes: (Billion): Small Capitalization: <$2; Middle 
                        Capitalization: $2~$10; Large Capitalization: >$10. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -219,7 +226,7 @@
                         used to measure the expected revenue in short-term future. Investors can evaluate a 
                         company’s earning quality by calculating accruals. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -247,7 +254,7 @@
                         to guide pricing and promotion decision. A higher gross margin represents a greater ability 
                         of a company to turn raw materials into income. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -276,7 +283,7 @@
                        higher of a company’s R&D expenditure represents a greater potential of profitability for 
                        the company. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -305,7 +312,7 @@
                         have been used to generate income. The higher the ratio is, the more efficiently capital is 
                         used. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
@@ -333,7 +340,7 @@
                         growth rate means the rapidly growing business of a company in the market, and investors 
                         generally prefer a high growth rate. 
                       </div>
-                    </div>
+                    </div><small><a href="#">Go to top</a></small>
                   </div>  
               	</div>
 
