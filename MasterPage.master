@@ -45,10 +45,9 @@
                       <ul class="nav navbar-nav navbar-left">
                           <li><a runat="server" href="~/Default.aspx">Home</a></li>
                           <li><a runat="server" href="~/Ranks/RankbyAC.aspx">Quick Rank</a></li>
-                          <li><a runat="server" href="#">Stock Filter</a></li>
-                          <li><a runat="server" href="#">Reports</a></li>
+                          <li><a runat="server" href="#">Stock Filter</a></li>                         
                           <li><a id="A3" runat="server" href="~/Ratios.aspx">Ratios</a></li>
-                          <li><a id="A2" runat="server" href="~/newsarticles.aspx">News</a></li>
+                          <li><a id="A2" runat="server" href="~/newsarticles.aspx">Articles</a></li>
                        
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
@@ -61,7 +60,7 @@
                      <ul class="nav navbar-nav navbar-right">
                         <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"  >More<b class="caret"></b></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" >More<b class="caret"></b></a>
                           <ul class="dropdown-menu">
                                <li><a id="A1" runat="server" href="~/About.aspx">About</a></li>
                                <li><a id="A4" runat="server" href="~/Board.aspx">Board</a></li>

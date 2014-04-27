@@ -54,9 +54,8 @@
                           <li><a id="A3" runat="server" href="~/Default.aspx">Home</a></li>
                           <li><a id="A4" runat="server" href="~/Ranks/RankbyAC.aspx">Quick Rank</a></li>
                           <li><a id="A5" runat="server" href="#">Stock Filter</a></li>
-                          <li><a id="A6" runat="server" href="#">Reports</a></li>
                           <li><a id="A7" runat="server" href="~/Ratios.aspx">Ratios</a></li>
-                          <li><a id="A8" runat="server" href="~/newsarticles.aspx">News</a></li>
+                          <li><a id="A8" runat="server" href="~/newsarticles.aspx">Articles</a></li>
                        
                       </ul>                 
                     <div class="navbar-form navbar-right" role="search">
