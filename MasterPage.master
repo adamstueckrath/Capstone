@@ -44,7 +44,7 @@
                   <div class ="collapse navbar-collapse navHeaderCollapse" style="background-color:#C1E1A6;">
                       <ul class="nav navbar-nav navbar-left">
                           <li><a runat="server" href="~/Default.aspx">Home</a></li>
-                          <li><a runat="server" href="~/Ranks/RankbyAC.aspx">Quick Rank</a></li>
+                          <li><a runat="server" href="~/rankall.aspx">Rank</a></li>
                           <li><a runat="server" href="#">Stock Filter</a></li>                         
                           <li><a id="A3" runat="server" href="~/Ratios.aspx">Ratios</a></li>
                           <li><a id="A2" runat="server" href="~/newsarticles.aspx">Articles</a></li>

@@ -71,7 +71,7 @@
                    <div class="row">
             <div class="table-responsive">
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_PVI %>" SelectCommand="SELECT [Company Name], [Ticker], [Sector], [Industry] FROM [PVI_Ranks]"></asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" CssClass="table table-hover">
+        <asp:GridView ID="GridView1" runat="server" CssClass="table table-hover" AllowSorting ="true" OnSorting="GridView1_Sorting">
         </asp:GridView>
          </div><!--/row-->
         </div><!--/span-->
