@@ -31,7 +31,6 @@
 <!-- Begin Body -->
    
 <div class="container">
-    
 	<div class="row">
   			<div class="col-md-3" id="leftCol">
 				<div class="well"> 

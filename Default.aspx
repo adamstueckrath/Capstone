@@ -12,7 +12,7 @@
 
 .post-content {
     background: none repeat scroll 0 0 #FFffff;
-    opacity: 0.7;
+    opacity: 0.8;
     margin: 0 auto;
     text-align:center;
     position: relative;
