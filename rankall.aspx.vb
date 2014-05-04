@@ -21,14 +21,17 @@ Partial Class rankall
 
 
             'Handle the ratio selected in checkbox
-            For Each item As ListItem In CheckBoxList1.Items
-                If item.Selected Then
-                    selectClause += ", " & "[" & item.Value & "], " & "[" & item.Value + " Rank" & "]"
-                ElseIf item.Selected = False Then
-                    selectClause = selectClause
-                End If
-            Next
-
+            If cb_selectall.Checked = True Then
+                selectClause = "SELECT *"
+            Else
+                For Each item As ListItem In CheckBoxList1.Items
+                    If item.Selected Then
+                        selectClause += ", " & "[" & item.Value & "], " & "[" & item.Value + " Rank" & "]"
+                    ElseIf item.Selected = False Then
+                        selectClause = selectClause
+                    End If
+                Next
+            End If
             Dim sqlstring As String = SqlDataSource1.SelectCommand
 
             'Handle the sector selected in dropdownlist 
@@ -62,10 +65,10 @@ Partial Class rankall
         Dim sortingDirection As String = String.Empty
         If dir = SortDirection.Ascending Then
             dir = SortDirection.Descending
-            sortingDirection = "Desc"
+            sortingDirection = "Asc"
         Else
             dir = SortDirection.Ascending
-            sortingDirection = "Asc"
+            sortingDirection = "Desc"
         End If
 
         Dim sortedView As New DataView(BindGridView())
@@ -84,13 +87,17 @@ Partial Class rankall
 
 
             'Handle the ratio selected in checkbox
-            For Each item As ListItem In CheckBoxList1.Items
-                If item.Selected Then
-                    selectClause += ", " & "[" & item.Value & "], " & "[" & item.Value + " Rank" & "]"
-                ElseIf item.Selected = False Then
-                    selectClause = selectClause
-                End If
-            Next
+            If cb_selectall.Checked = True Then
+                selectClause = "SELECT *"
+            Else
+                For Each item As ListItem In CheckBoxList1.Items
+                    If item.Selected Then
+                        selectClause += ", " & "[" & item.Value & "], " & "[" & item.Value + " Rank" & "]"
+                    ElseIf item.Selected = False Then
+                        selectClause = selectClause
+                    End If
+                Next
+            End If
 
             Dim sqlstring As String = SqlDataSource1.SelectCommand
 
@@ -147,22 +154,4 @@ Partial Class rankall
 
         End Using
     End Sub
-
-    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim connectionString As String = ConfigurationManager.ConnectionStrings("cs_PVI").ConnectionString
-        Dim selectClause As String = "SELECT * FROM [PVI_Ranks]"
-
-        Using myConnection As New SqlConnection(connectionString)
-            myConnection.Open()
-
-            Dim mycommand As New SqlCommand(selectClause, myConnection)
-            Dim reader As SqlDataReader = mycommand.ExecuteReader()
-
-            GridView1.DataSource = reader
-            GridView1.DataBind()
-
-        End Using
-    End Sub
-
-
 End Class

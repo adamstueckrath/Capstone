@@ -57,10 +57,11 @@
                                 <asp:ListItem Value="ROC">Return on Capital</asp:ListItem>
                                 <asp:ListItem Value="SG">Sales Growth</asp:ListItem>
                             </asp:CheckBoxList>
+                              <asp:CheckBox ID="cb_selectall" runat="server" /><asp:Label ID="Label1" runat="server" Text="Select All"></asp:Label>
                           </li>
-                          <li>Sidebar</li>
+                          
                           <li><asp:Button ID="Button1" runat="server" Text="Generate Rank" Width="129px" /></li>
-                          <li><asp:Button ID="Button2" runat="server" Text="Quick Rank" /></li>
+                          
                         </ul>
                       </div><!--/.well -->
                     </div><!--/span-->

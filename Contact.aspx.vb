@@ -9,11 +9,12 @@ Partial Class Contact
         'Declare variables to create a new mail message and client connection.
         Dim msg As New MailMessage
         Dim client As New SmtpClient
+        Dim content As String = TextBox1.Text & " " & TextBox2.Text & vbCrLf & senderAddress.Text & vbCrLf & senderMessage.Text
 
         msg.To.Add("yang-liu@uiowa.edu")  'destination email address
         msg.From = New MailAddress(senderAddress.Text)  'get the address from the textbox
         msg.Subject = "web contact form test"  'set the message subject line
-        msg.Body = senderMessage.Text  'get the message body from the textbox
+        msg.Body &= content   'get the message body from the textbox
 
         client.Host = "smtp.gmail.com"  'place your smtp server inside quotation marks - gmail is smtp.gmail.com
         client.Port = 587  'place your smtp port here - gmail is 587

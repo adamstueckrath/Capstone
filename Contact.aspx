@@ -6,7 +6,14 @@
 
     <div class="jumbotron">
       <div class="container">
-      <legend>Contact Us</legend>
+
+        <address>
+        <legend>ADDRESS</legend>       
+            Henry B. Tippie College of Business - The University of Iowa<br />
+            21 E Market St, Iowa City, IA 52242
+        </address>
+
+      <legend>CONTACT US</legend>
 
         <label for="first name">First Name:</label>
         <br />
