@@ -4,9 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <div class="jumbotron">
+    
       <div class="container">
-
+<div class="jumbotron">
         <address>
         <legend>ADDRESS</legend>       
             Henry B. Tippie College of Business - The University of Iowa<br />

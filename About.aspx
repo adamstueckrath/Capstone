@@ -6,8 +6,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-      <div class="jumbotron">
+      
       <div class="container">
+          <div class="jumbotron">
       <legend>About Pentacrest Value Institute</legend>
           <br />  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia tincidunt tortor eget rutrum. Fusce vel dui dapibus, blandit leo sed, egestas nisi. Ut ullamcorper orci ac sem fringilla, vitae ultrices leo pharetra. Praesent at blandit urna. Mauris fringilla accumsan magna gravida sagittis. Nam posuere lacinia elit. Donec vehicula laoreet laoreet. Nulla luctus elementum elit, vitae sollicitudin ligula facilisis non.

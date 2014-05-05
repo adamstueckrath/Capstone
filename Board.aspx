@@ -6,8 +6,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-      <div class="jumbotron">
+      
       <div class="container">
+          <div class="jumbotron">
       <legend>Executive Board</legend>
           <br />
               <a href="tupac"><asp:image id="img" runat="server" imageurl="http://www.inflexwetrust.com/wp-content/uploads/2014/03/IFWT_Tupac.jpg" height=200px /></a>
