@@ -6,7 +6,6 @@
     height: 800px; !important;
     overflow: scroll;
     }​
-
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -57,13 +56,13 @@
                         </ul>
                       </div><!--/.well -->
                     </div><!--/span-->
-                   <div class="row">
-                       
+               <div class="container">
+            <div class="row">     
             <div class="table-responsive" id="yomama">
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_PVI %>" SelectCommand="SELECT [Company Name], [Ticker], [Sector], [Industry] FROM [PVI_Ranks]"></asp:SqlDataSource>
         <asp:GridView ID="GridView1" runat="server" CssClass="table table-condensed table-hover" GridLines="None" AllowSorting ="true" OnSorting="GridView1_Sorting">
         </asp:GridView>
-         </div><!--/row--></div>
+         </div><!--/row--></div></div>  
         </div><!--/span-->
       </div><!--/row-->
 <!--contianer--></div>

@@ -5,8 +5,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    
-    <div class="jumbotron" > 
-       <div class="container">           
+   
+        <div class="jumbotron" > 
+                   <div class="container">
                       <asp:Login ID="Login1" runat="server">
                <LayoutTemplate>
                    <div class="container">
