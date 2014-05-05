@@ -2,27 +2,23 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <style>
-    #side{
-    position: fixed;
-    -moz-transition-property: all;
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -moz-transition-duration: .4s;
-    -webkit-transition-duration: .4s;
-    -o-transition-duration: .4s;
-    transition-duration: .4s;
-	}
+
+
+
+    #yomama{  
+    height: 800px; !important;
+    overflow: scroll;
+    }​
 
     </style>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
-             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-                <div class="well sidebar-nav" id="side">
+    <div class="container"><div class="jumbotron">
+        <div class="row">
+             <div class="col-md-3" id="leftcol" role="navigation">
+                <div class="well pull-left">
                         <ul class="nav">
                           <li>Financial Statement to use:</li>
                             <li class="divider"></li>
@@ -65,18 +61,15 @@
                         </ul>
                       </div><!--/.well -->
                     </div><!--/span-->
-                    <div class="col-xs-12 col-sm-9">
-                      <p class="pull-left visible-xs">
-                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle Nav</button>
-                      </p>
                    <div class="row">
-            <div class="table-responsive">
+                       
+            <div class="table-responsive" id="yomama">
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_PVI %>" SelectCommand="SELECT [Company Name], [Ticker], [Sector], [Industry] FROM [PVI_Ranks]"></asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" CssClass="table table-hover" AllowSorting ="true" OnSorting="GridView1_Sorting">
+        <asp:GridView ID="GridView1" runat="server" CssClass="table table-condensed table-hover" GridLines="None" AllowSorting ="true" OnSorting="GridView1_Sorting">
         </asp:GridView>
-         </div><!--/row-->
+         </div><!--/row--></div>
         </div><!--/span-->
       </div><!--/row-->
-</div><!--contianer--></div>
+<!--contianer--></div>
 </asp:Content>
 

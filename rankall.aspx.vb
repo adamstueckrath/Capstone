@@ -8,6 +8,8 @@ Partial Class rankall
         If Not Page.IsPostBack Then
             GridView1.DataSource = BindGridView()
             GridView1.DataBind()
+            GridView1.UseAccessibleHeader = "True"
+            GridView1.HeaderRow.TableSection = TableRowSection.TableHeader
         End If
     End Sub
 

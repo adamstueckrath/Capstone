@@ -4,23 +4,3 @@
 /* #C1E1A6 Mint Gray*/
 /* #FF9009 Orange*/
 
-Body {
-    background-color:#585858;
-}
-
-#footer {
-    color:#FF9009;
-    border-collapse:collapse;
-    border:none;
-    text-align:center;
-}
-
-table td, th {
-    border-collapse:collapse;
-    color:#FF9009;
-    border:none;
-    background-color:#FFFFFF;
-    text-align:center
-    
-}
-

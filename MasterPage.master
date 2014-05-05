@@ -6,6 +6,7 @@
 <head runat="server">
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pvalue</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -21,6 +22,17 @@
         .auto-style1 {
             height: 37px;
         }
+        Body {
+    background-color:#585858;
+}
+
+#footer {
+    color:#FF9009;
+    border-collapse:collapse;
+    border:none;
+    text-align:center;
+}
+
     </style>
 </head>
 
@@ -59,18 +71,6 @@
                     <div>
                      <ul class="nav navbar-nav navbar-right">
                         <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" >More<b class="caret"></b></a>
-                          <ul class="dropdown-menu">
-                               <li><a id="A1" runat="server" href="~/About.aspx">About</a></li>
-                               <li><a id="A4" runat="server" href="~/Board.aspx">Board</a></li>
-                               <li><a id="A5" runat="server" href="~/Contact.aspx">Contact</a></li>
-                               <li class="divider"></li>
-                               <li class="nav-header">Account</li>                                   
-                               <li><a href="#">Profile</a></li>
-                               <li><a runat="server" href="~/login/changepassword.aspx">Change Password</a></li>
-                          </ul>
-                        </li>
                       </ul>
                   </div>
                 </div>               
@@ -85,7 +85,11 @@
         <div class="footer">
         <nav class ="navbar navbar-static-bottom" style="background-color:#FFFFFF;">
        <div class="container">  
-        <table class="table basic-table" >
+        <table class="table basic-table" style="    border-collapse:collapse;
+    color:#FF9009;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:center" >
             <thead>
                 <tr>
                     <th style="text-align:center;border:none">Company</th>
@@ -95,19 +99,19 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="auto-style1"><a href="#" title="Facebook">About us</a></td>
+                    <td class="auto-style1"><a id="A1" runat="server" href="~/About.aspx">About Us</a></td>
                     <td class="auto-style1"><a href="#" title="Facebook">Terms of service</a></td>
                     <td class="auto-style1"><asp:LoginStatus ID="LoginStatus2" runat="server" /></td>
                 </tr>
                 <tr>
-                    <td><a href="#" title="Facebook">Who we are</a></td>
-                    <td><a href="#" title="Facebook">Private Policy</a></td>
-                    <td><a runat="server" href="~/Contact.aspx" title="Facebook">Contact</a></td>
+                    <td><a id="A4" runat="server" href="~/Board.aspx">Board</a></td>
+                    <td><a href="#" title="Private Policy">Private Policy</a></td>
+                    <td><a id="A5" runat="server" href="~/Contact.aspx">Contact</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#" title="Facebook">News & events</a></td>
+                    <td><a runat="server" href="~/newsarticles.aspx">News & events</a></td>
                     <td></td>
-                    <td><a href="#" title="Facebook">Sitemap</a></td>
+                    <td><a href="#" title="Sitemap">Sitemap</a></td>
                 </tr>
             </tbody>
         </table>
