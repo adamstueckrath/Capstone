@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/News.master" AutoEventWireup="false" CodeFile="cisconews.aspx.vb" Inherits="cisconews" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="cisconews.aspx.vb" Inherits="cisconews" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
         <style>

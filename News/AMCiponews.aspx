@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/News.master" AutoEventWireup="false" CodeFile="AMCiponews.aspx.vb" Inherits="AMCiponews" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="AMCiponews.aspx.vb" Inherits="AMCiponews" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style>
@@ -12,7 +12,8 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div class="container">
+
+    <div class="container">
         <div class="row">
             <div class="col-lg-9">
                 <div class="panel panel-default">

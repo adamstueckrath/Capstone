@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/News.master" AutoEventWireup="false" CodeFile="googlestockpricenews.aspx.vb" Inherits="googlestockpricenews" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="googlestockpricenews.aspx.vb" Inherits="googlestockpricenews" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

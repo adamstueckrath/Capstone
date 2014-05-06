@@ -22,6 +22,7 @@
           padding: 30px 15px;
           border-radius: 6px;
         }
+
     </style>
 </asp:Content>
 
@@ -29,8 +30,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 <!-- Begin Body -->
-   
-<div class="container">
+  <div class="jumbotron" style="background-color:#e6edf6;">  
+<div class="container-narrow">
 	<div class="row">
   			<div class="col-md-3" id="leftCol">
 				<div class="well"> 
@@ -67,7 +68,7 @@
                 Cash flow affects the company's ability to obtain debt and equity financing.
                 Solvency ratios are used to measure long‐term risk and are of interest to long‐term creditors and stockholders.
                 </p> </div>
-            <div class="jumbotron">
+
               	<h2 id="sec1">Assets Turnover Ratio</h2>
               	<div class="row">
                   <div class="col-lg-12">
@@ -347,6 +348,6 @@
   	</div>
 </div>
 
-
+</div>
 </asp:Content>
 
