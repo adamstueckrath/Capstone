@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    
    
-        <div class="jumbotron" > 
+        <div class="jumbotron" style="background-color:#e6edf6;">
                    <div class="container">
                       <asp:Login ID="Login1" runat="server">
                <LayoutTemplate>
