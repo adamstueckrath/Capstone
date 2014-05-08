@@ -94,6 +94,7 @@
                         <p>About Pentacrest Value Institute (PVI): PVI is a non-profit institute that promotes rigorous fundamental and 
                             quantitative equity research. PVI is not an investment advisor or broker. It does not hold any positions on the 
                             companies mentioned in the article, and this article is not intended to recommend any stocks to the public.</p>
+                    <a href="#" class="back-to-top">Back to Top</a>
                     </div>
                 </div>
             </div>

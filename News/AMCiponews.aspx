@@ -57,6 +57,7 @@
           <div>
     <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/newsarticles.aspx" />
 </div>
+     <br />
     <div class="container"> 
         <div class="row">
             <div class="col-lg-9">

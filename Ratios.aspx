@@ -1,7 +1,35 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Ratios.aspx.vb" Inherits="Board" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
     <style type="text/css">
+         .back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-size: 16px;
+    padding: 1em;
+    margin-right:20px;
+    display: none;
+}
+        .back-to-top:hover {
+                background-color: rgba(135, 135, 135, 0.50);
+        } 
+            
+        .page-header {
+        margin-top:0;
+
+        }
+        .panel-body {
+        padding-top:0;
+        }
+     
+
         .fraction {
 	        display: inline-block;
 	        position: relative;
@@ -22,8 +50,29 @@
           padding: 30px 15px;
           border-radius: 6px;
         }
-
     </style>
+    
+     
+    <script>
+        jQuery(document).ready(function () {
+            var offset = 220;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                    jQuery('.back-to-top').fadeOut(duration);
+                }
+            });
+
+            jQuery('.back-to-top').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+
+    </script>
 </asp:Content>
 
 
@@ -31,7 +80,7 @@
 
 <!-- Begin Body -->
   <div class="jumbotron" style="background-color:#e6edf6;">  
-<div class="container-narrow">
+<div class="container">
 	<div class="row">
   			<div class="col-md-3" id="leftCol">
 				<div class="well"> 
@@ -92,7 +141,7 @@
                         However, whether the ratio is good or bad to a large extent depends on
                         what industry the company operates in.
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
               
@@ -121,7 +170,7 @@
                         given level or risk. The longer the period tend to analyzes, the steadier figure tends to be 
                         reflected. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
               
@@ -148,7 +197,7 @@
                         When comparing companies in the same industry, a higher P/E Ratio
                         represents higher earnings growth.
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
               
@@ -176,7 +225,7 @@
                         is equal to market value of equity plus net interest-bearing debt. It takes into account both equity 
                         and debt using by the company to generate operating earnings. Higher EY Ratio is always preferred.
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -197,7 +246,7 @@
                        capitalization is divided into three sizes: (Billion): Small Capitalization: <$2; Middle 
                        Capitalization: $2~$10; Large Capitalization: >$10. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -226,7 +275,7 @@
                         used to measure the expected revenue in short-term future. Investors can evaluate a 
                         company’s earning quality by calculating accruals. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -254,7 +303,7 @@
                         to guide pricing and promotion decision. A higher gross margin represents a greater ability 
                         of a company to turn raw materials into income. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -283,7 +332,7 @@
                        higher of a company’s R&D expenditure represents a greater potential of profitability for 
                        the company. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -312,7 +361,7 @@
                         have been used to generate income. The higher the ratio is, the more efficiently capital is 
                         used. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
@@ -340,11 +389,12 @@
                         growth rate means the rapidly growing business of a company in the market, and investors 
                         generally prefer a high growth rate. 
                       </div>
-                    </div><small><a href="#">Go to top</a></small>
+                    </div> 
                   </div>  
               	</div>
 
       		</div> </div>
+    <a href="#" class="back-to-top">Back to Top</a>
   	</div>
 </div>
 

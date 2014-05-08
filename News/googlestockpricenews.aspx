@@ -49,6 +49,7 @@
        <div>
     <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/newsarticles.aspx" />
 </div>
+     <br />
      <div class="container">
         <div class="row">
             <div class="col-lg-9">
@@ -145,7 +146,8 @@
                         <p>About Pentacrest Value Institute (PVI): PVI is a non-profit institute that promotes rigorous fundamental and 
                             quantitative equity research. PVI is not an investment advisor or broker. It does not hold any positions on the 
                             companies mentioned in the article, and this article is not intended to recommend any stocks to the public.</p>
-                    </div>
+                   <a href="#" class="back-to-top">Back to Top</a>
+                         </div>
                 </div>
             </div>
         </div>

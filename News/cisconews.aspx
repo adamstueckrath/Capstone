@@ -12,7 +12,7 @@
         .panel-body {
         padding-top:0;
         }
-            <style>
+            
     .back-to-top {
     position: fixed;
     bottom: 2em;
@@ -58,6 +58,7 @@
       <div>
     <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/newsarticles.aspx" />
 </div>    
+    <br />
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
@@ -151,6 +152,7 @@
                             Cisco’s fundamentals. </p>
                         <p>Indeed, the change in the intrinsic stock price from Nov 1 to Nov 14 is -4.70%, not too different from 
                             the change in market price, -5.32%. </p>
+                    <a href="#" class="back-to-top">Back to Top</a>
                     </div>
                 </div>
             </div>
