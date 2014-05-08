@@ -558,13 +558,18 @@ x\:* {behavior:url(#default#VML);}
 	white-space:nowrap;}
     .container-fluid {
     margin:auto; 
-    width:80%;
+    width:auto;
     text-align:center;
     margin-bottom:20px;
     }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class="jumbotron">
+        <div>
+    <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/Default.aspx" />
+</div>
+    <br />
 <div class="container-fluid">
 <div id="INTC ( Intel)_17596">
 <table>
@@ -1734,6 +1739,8 @@ x\:* {behavior:url(#default#VML);}
  </tr>
  <![endif]>
 </table>
+</div>
+
 </div>
 
 </div>

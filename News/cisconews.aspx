@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="cisconews.aspx.vb" Inherits="cisconews" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-        <style>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>      
+    
+    
+    <style>
         .page-header {
         margin-top:0;
 
@@ -9,9 +12,52 @@
         .panel-body {
         padding-top:0;
         }
+            <style>
+    .back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-size: 16px;
+    padding: 1em;
+    margin-right:20px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
     </style>
+
+
+    <script>
+        jQuery(document).ready(function () {
+            var offset = 220;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                    jQuery('.back-to-top').fadeOut(duration);
+                }
+            });
+
+            jQuery('.back-to-top').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class="jumbotron" style="background-color:#e6edf6;">
+      <div>
+    <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/newsarticles.aspx" />
+</div>    
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
@@ -110,6 +156,6 @@
             </div>
         </div>
     </div>
-
+</div>
 </asp:Content>
 

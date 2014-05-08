@@ -585,13 +585,18 @@ x\:* {behavior:url(#default#VML);}
 	white-space:nowrap;}
     .container-fluid {
     margin:auto; 
-    width:80%;
+    width:auto;
     text-align:center;
     margin-bottom:20px;
     }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class="jumbotron">
+        <div>
+    <asp:Button ID="Button1" CssClass="btn btn-default btn-lg" runat="server" Text="Back"  PostBackUrl="~/Default.aspx" />
+</div>
+    <br />
 <div class="container-fluid">
     <div id="Verizon_10119" align=center x:publishsource="Excel">
 
@@ -1623,5 +1628,6 @@ x\:* {behavior:url(#default#VML);}
 </table>
 </div>
 </div>
+    </div>
 </asp:Content>
 
